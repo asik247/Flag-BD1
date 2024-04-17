@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(171, 241, 226);
+}
+.green{
+    position:absolute;
+    width: 500px;
+    background-color: green;
+    height: 250px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.red{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+}
+.bambo{
+    width: 20px;
+    height: 550px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    border-radius: 10%;
+}
+.red h1{
+   color: white;
+}
+.khan{
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-size: 30px;
+    color: rgb(14, 28, 235);
+}
+.asik{
+    top: 62%;
+    left: 72%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-size: 30px;
+    color: rgb(14, 28, 235);
+}
